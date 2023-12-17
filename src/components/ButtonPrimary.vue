@@ -1,11 +1,12 @@
 <script setup>
 defineProps({
   padding: String,
+  shadow: String,
 })
 </script>
 
 <template>
-  <button :style="{ padding }" class="bg-black font-bold text-white shadow-md hover:shadow-none duration-300 blur-none text-sm w-max rounded-lg ">
+  <button :class="`bg-black font-bold text-white hover:shadow-none duration-300 blur-none text-sm w-max rounded-lg ${shadow} ${padding}`">
     <slot></slot>
   </button>
 </template>

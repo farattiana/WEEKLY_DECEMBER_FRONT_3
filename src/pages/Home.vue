@@ -11,6 +11,6 @@ import ButtonPrimary from '../components/ButtonPrimary.vue';
     <div>
       <p class="max-w-xs font-montserrat leading-7">We cover all kinds of categories and a weekly special guest.</p>
     </div>
-    <ButtonPrimary padding="24px 48px">SUBSCRIBE</ButtonPrimary>
+    <ButtonPrimary padding="py-6 px-12" shadow="shadow-md">SUBSCRIBE</ButtonPrimary>
   </div>
 </template>
