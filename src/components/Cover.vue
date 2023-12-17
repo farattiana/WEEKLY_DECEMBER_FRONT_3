@@ -12,7 +12,7 @@ const images = [
 
 <template>
   <div class="bg-champagne overflow-hidden">
-    <div class="bg-champagne flex flex-center justify-center overflow-x-auto scrollbar-hide gap-5">
+    <div class="bg-champagne flex flex-center justify-center overflow-x-auto gap-5">
       <img v-for="image in images" :src="image" alt="" class="w-72 h-72 object-cover">
     </div>
   </div>

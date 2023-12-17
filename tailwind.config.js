@@ -17,6 +17,9 @@ export default {
       fontFamily: {
         montserrat:['MontserratAlternate', 'sans-serif'],
         bold : ['Bold','sans-serif']
+      },
+      boxShadow: {
+        'md': '6px 6px 0px rgba(0, 0, 0, 0.25)',
       }
     },
   },
