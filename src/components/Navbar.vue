@@ -23,7 +23,7 @@ onMounted(() => {
   <header class="absolute top-0 left-0 right-0 bg-blue text-black p-4 flex justify-between items-center sm:px-36 ">
     <img src="/logo.svg" alt="" class="w-12 h-12 object-cover sm:h-16 sm:w-16">
     
-    <nav class="flex items-center justify-between lg:w-5/6">
+    <nav class="flex items-center justify-between lg:w-5/6 ml-12">
       <ul class="hidden gap-16 font-bold lg:flex">
         <li><a href="">Episodes</a></li>
         <li><a href="">About</a></li>
