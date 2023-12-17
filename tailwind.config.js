@@ -19,6 +19,7 @@ export default {
         bold : ['Bold','sans-serif']
       },
       boxShadow: {
+        'sm': '3px 3px 0px rgba(0, 0, 0, 0.25)',
         'md': '6px 6px 0px rgba(0, 0, 0, 0.25)',
       }
     },

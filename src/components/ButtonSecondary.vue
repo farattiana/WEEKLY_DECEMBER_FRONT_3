@@ -1,8 +1,11 @@
 <script setup>
+defineProps({
+  padding: String,
+})
 </script>
 
 <template>
-  <button class="bg-transparent border-2 border-amber text-blue font-cardo px-4 py-2 sm:px-8 sm:py-3 w-max">
-    Order Today
+  <button :class="`bg-transparent border-2 font-bold rounded-lg border-black w-max text-sm ${padding}`">
+    <slot></slot>
   </button>
 </template>
