@@ -5,7 +5,7 @@ import Cover from './components/Cover.vue';
 import Partner from './components/Partner.vue';
 import About from './pages/About.vue';
 import Testimonial from './pages/Testimonial.vue';
-import TestimonialCard from './components/TestimonialCard.vue';
+import Feature from './pages/Feature.vue'
 </script>
 
 <template>
@@ -15,5 +15,6 @@ import TestimonialCard from './components/TestimonialCard.vue';
   <Partner/>
   <About/>
   <Testimonial/>
+  <Feature/>
 </template>
 
