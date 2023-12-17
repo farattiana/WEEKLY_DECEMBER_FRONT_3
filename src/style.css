@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: MontserratAlternate;
+  src: url(./fonts/MontserratAlternates-Regular.ttf);
+}
+
+@font-face {
+  font-family: Bold;
+  src: url(./fonts/MontserratAlternates-SemiBold.ttf);
+}
