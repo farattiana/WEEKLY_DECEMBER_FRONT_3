@@ -10,7 +10,7 @@
       <div class="sm:pt-20 flex flex-row relative">
         <img src="/sparkle.svg" alt="" class="absolute top-[-50px] left-[-50px] sm:top-0 sm:left-[-100px]">
         <div class="flex flex-col text-center gap-2">
-          <h1 class="text-4xl text-center sm:text-6xl">What our listeners say</h1>
+          <h1 class="text-4xl text-center font-bold sm:text-6xl">What our listeners say</h1>
           <p class="text-gray">Their experience throughout every platform</p>
         </div>
       </div>
