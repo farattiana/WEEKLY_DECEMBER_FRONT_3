@@ -15,7 +15,7 @@ const platforms = {
 </script>
 
 <template>
-  <div class="flex flex-col bg-[#fff] rounded-lg gap-6 max-w-xl p-8">
+  <div class="flex flex-col bg-[#fff] rounded-lg gap-6 max-w-xl p-8 xl:w-[570px]">
     <span class="text-8xl font-bold text-red">“</span>
 
     <p class="text-2xl -mt-8">Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua.</p>
