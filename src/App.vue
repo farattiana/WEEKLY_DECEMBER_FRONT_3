@@ -4,6 +4,7 @@ import Home from './pages/Home.vue';
 import Cover from './components/Cover.vue';
 import Partner from './components/Partner.vue';
 import About from './pages/About.vue';
+import Testimonial from './pages/Testimonial.vue';
 </script>
 
 <template>
@@ -12,5 +13,6 @@ import About from './pages/About.vue';
   <Cover/>
   <Partner/>
   <About/>
+  <Testimonial/>
 </template>
 
