@@ -12,7 +12,7 @@ const TableData = [
 </script>
 
 <template>
-  <div class="relative flex flex-col gap-20">
+  <div class="relative flex flex-col items-center gap-20">
     <div class="flex justify-center items-center">
       <img src="/scribble.svg" alt="" class="absolute">
     </div>
@@ -25,11 +25,11 @@ const TableData = [
         <img src="/scribbleFeature.svg" alt="" class="hidden sm:flex absolute top-[-50px] right-[-50px]">
       </div>
     </div>
-    <div class="flex flex-row gap-10 flex-wrap justify-center items-center">
+    <div class="flex flex-row gap-10 flex-wrap justify-center items-center max-w-screen-xl">
       <CardFeature v-for="(data) in TableData" :data="data"/>
     </div>
     <div class="flex justify-center items-center m-20">
-      <ButtonPrimary padding="20px 36px">SEE PRICING</ButtonPrimary>
+      <ButtonPrimary padding="py-6 px-12" shadow="shadow-md">SEE PRICING</ButtonPrimary>
     </div>
   </div>
 </template>
