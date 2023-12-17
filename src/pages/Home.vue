@@ -9,7 +9,7 @@ import ButtonPrimary from '../components/ButtonPrimary.vue';
       <h1 class="text-red">Podcast</h1>
     </div>
     <div>
-      <p class="max-w-xs">We cover all kinds of categories and a weekly special guest.</p>
+      <p class="max-w-xs font-montserrat leading-7">We cover all kinds of categories and a weekly special guest.</p>
     </div>
     <ButtonPrimary padding="24px 48px">SUBSCRIBE</ButtonPrimary>
   </div>
